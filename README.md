@@ -17,14 +17,14 @@
 Dieses Dashboard sagt voraus, ob eine Maschine (z. B. ein Industrieroboter) in naher Zukunft einen Ausfall haben wird.  \
 Es basiert auf realen Sensordaten (Temperatur, Drehzahl, Drehmoment und Werkzeugverschlei\'df) und wurde mit einem **Decision Tree** trainiert.\
 \
-Das Projekt dient als Bewerbungsbeispiel f\'fcr Positionen im Bereich **Predictive Maintenance, KI und Robotik** (z. B. bei Siemens).\
+Das Projekt dient als Bewerbungsbeispiel f\'fcr Positionen im Bereich **Predictive Maintenance, KI und Robotik** (z. B. bei Siemens in M\'fcnchen).\
 \
 ---\
 \
 ## Features\
 \
-- Vorhersage von Maschinen-Ausf\'e4llen (Recall: 84%)\
-- Interaktive Vorhersage mit Sensordaten\
+- Vorhersage von Maschinen-Ausf\'e4llen mit **84% Recall**\
+- Interaktive Vorhersage mit realen Sensordaten\
 - Wichtige Einflussfaktoren (Feature Importance)\
 - Professionelles Dashboard mit Streamlit\
 \
@@ -43,13 +43,12 @@ Das Projekt dient als Bewerbungsbeispiel f\'fcr Positionen im Bereich **Predicti
 \
 ```bash\
 # 1. Repository klonen\
-git clone https://github.com/deinusername/predictive-maintenance-robotik.git\
+git clone https://github.com/sinaardabili-stack/predictive-maintenance-robotik.git\
 cd predictive-maintenance-robotik\
 \
 # 2. Virtuelle Umgebung erstellen (empfohlen)\
 python -m venv venv\
 source venv/bin/activate          # macOS / Linux\
-# venv\\Scripts\\activate           # Windows\
 \
 # 3. Abh\'e4ngigkeiten installieren\
 pip install -r requirements.txt\
